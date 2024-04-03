@@ -1,0 +1,86 @@
+
+.container{
+    padding: 3px;
+    width: 75%;
+    /* height: 30%; */
+    /* background: var(--variable-color-fondo-blanco); */
+    opacity: 0.91;
+    border: 5px solid #bebcbc;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 5px;
+    border-radius: 45px;
+    align-items: flex-start;
+}
+.main_data{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 98%;
+    padding: 15px;
+    margin: 15px;
+}
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    /* align-items: center; */
+    width: 93%;
+    margin: 5px;
+    padding: 5px;
+    /* margin-left: 50px; */
+    justify-content: space-between;
+}
+.tituloObra{
+    font-weight: 700;
+    font-size: 22px;
+}
+.boton{
+    /* font-weight: bold; */
+    font-size: 18px;
+    background-color: greenyellow;
+    color: green;
+    border-radius: 15px;
+    padding: 4px;
+}
+.autor{
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+       display: flex;
+   
+}
+.detalle{
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    /* font-weight: 700; */
+    font-size: 21px;
+       display: flex;
+   
+}
+.pie{
+    margin-right: 67px;
+    color: black;
+    /* font-weight: 700; */
+    font-size: 18px;
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+}
+.cuerpo{display: flex;
+    flex-direction: column;
+    color: black;
+    /* align-items: center; */
+    width: 93%;
+    
+    /* margin-left: 50px; */
+    justify-content: space-between;}
+
+
+
+

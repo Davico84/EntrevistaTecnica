@@ -1,0 +1,33 @@
+/* Estilos para la lista de datos */
+.ContainerHome {
+    display: flex;
+    margin-top: 81px;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #443d3d;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: "80%";
+     /* background-color: #fff */
+}
+.tituloHome{
+    color:red;
+    font-size: 30px;
+    font-weight: bold;
+    
+}.cabecera{
+   display: flex; 
+   justify-content: space-around;
+}
+.cajatexto{
+    background-color: white;
+    border-radius: 8%;
+}

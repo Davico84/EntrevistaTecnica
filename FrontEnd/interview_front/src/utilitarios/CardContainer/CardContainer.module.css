@@ -1,0 +1,22 @@
+.main{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.main_error{
+        border: 1px solid black;
+        display: flex;
+        border-radius: 15px;
+        grid-gap: 1em;
+        gap: 1em;
+        /* background-color: #ff1ca6; */
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: space-around;
+}

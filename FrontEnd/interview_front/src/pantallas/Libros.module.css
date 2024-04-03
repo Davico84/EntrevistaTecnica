@@ -1,0 +1,83 @@
+/* Estilos para la lista de datos */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: "100%";
+    /* background-color: aqua; */
+}
+.data-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.libros {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    
+}
+.cabeceras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: #f5f5f5;
+
+}
+.item_cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    background-color: #c24646
+
+
+}
+/* Estilos para cada elemento de la lista */
+.datalistitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    color: black;
+    background-color: #f5f5f5
+}
+
+/* Estilos para el título del elemento */
+.data-list-item-title {
+    font-weight: bold;
+    margin-right: 10px;
+    color: aliceblue;
+}
+
+/* Estilos para la descripción del elemento */
+.data-list-item-description {
+    color: #666;
+}
+
+/* Estilos para resaltar el elemento activo */
+.data-list-item.active {
+    background-color: #f5f5f5;
+}
+
+/* Estilos para el enlace del elemento */
+.data-list-item-link {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos para el enlace del elemento al pasar el mouse */
+.data-list-item-link:hover {
+    text-decoration: underline;
+}
